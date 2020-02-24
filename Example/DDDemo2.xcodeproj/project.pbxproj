@@ -40,13 +40,13 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6560BAD0B03A4C418BD200F6 /* Pods_DDDemo2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDDemo2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BC45C4CFC57240DE145889D /* Pods-DDDemo2_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDDemo2_Example.debug.xcconfig"; path = "Target Support Files/Pods-DDDemo2_Example/Pods-DDDemo2_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		989898D45AD26FBA1983FA6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		989898D45AD26FBA1983FA6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9D2DD75CADF203C5CD58750A /* Pods-DDDemo2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDDemo2_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DDDemo2_Tests/Pods-DDDemo2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A1879140B194EE46A834B175 /* Pods-DDDemo2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDDemo2_Tests.release.xcconfig"; path = "Target Support Files/Pods-DDDemo2_Tests/Pods-DDDemo2_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CDB41E19C23422020216AEBB /* Pods-DDDemo2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDDemo2_Example.release.xcconfig"; path = "Target Support Files/Pods-DDDemo2_Example/Pods-DDDemo2_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E88BEDB0C908F9F08C35F589 /* DDDemo2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DDDemo2.podspec; path = ../DDDemo2.podspec; sourceTree = "<group>"; };
+		E88BEDB0C908F9F08C35F589 /* DDDemo2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DDDemo2.podspec; path = ../DDDemo2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EECD81BDCA4EA4F30E842EB9 /* Pods_DDDemo2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDDemo2_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F76628DF1FECA7E903436063 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F76628DF1FECA7E903436063 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				9D2DD75CADF203C5CD58750A /* Pods-DDDemo2_Tests.debug.xcconfig */,
 				A1879140B194EE46A834B175 /* Pods-DDDemo2_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
